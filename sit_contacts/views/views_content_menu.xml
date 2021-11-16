@@ -1,0 +1,242 @@
+<odoo>
+  <data>
+<!-- Lista Farmacos -->
+    <record  id="lista_farmaco_tree_view" model="ir.ui.view">
+        <field name="name">sit_tipo_lista_farmaco.tree</field>
+                <field name="model">sit_tipo_lista_farmaco</field>
+                <field name="arch" type="xml">
+                        <tree string="Lista de Farmacos">
+                                <field name="codigo" />
+                                <field name="numero" />
+                                <field name="tipo_de_tabla" />
+                                <field name="descripcion" />
+                                <field name="variable" />
+                                <field name="importe" />
+                        </tree>
+                </field>
+    </record>
+    <record id="action_view_lista_farmaco"  model="ir.actions.act_window">
+                <field name="name">Lista de Farmacos</field>
+                <field name="res_model">sit_tipo_lista_farmaco</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+
+<!-- Lista Alimentos -->
+    <record  id="lista_alimento_tree_view" model="ir.ui.view">
+        <field name="name">sit_tipo_lista_alimeneto.tree</field>
+                <field name="model">sit_tipo_lista_alimento</field>
+                <field name="arch" type="xml">
+                        <tree string="Lista de Alimentos">
+                                <field name="codigo" />
+                                <field name="numero" />
+                                <field name="tipo_de_tabla" />
+                                <field name="descripcion" />
+                                <field name="variable" />
+                                <field name="importe" />
+                        </tree>
+                </field>
+    </record>
+    <record id="action_view_lista_alimento"  model="ir.actions.act_window">
+                <field name="name">Lista de alimentos</field>
+                <field name="res_model">sit_tipo_lista_alimento</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+<!-- Categorias Farmacos -->
+    <record  id="categoria_farmaco_tree_view" model="ir.ui.view">
+        <field name="name">sit_categoria_farmaco.tree</field>
+                <field name="model">sit_categoria_farmaco</field>
+                <field name="arch" type="xml">
+                        <tree string="Categoria de Farmacos">
+                                <field name="codigo" />
+                                <field name="numero" />
+                                <field name="tipo_de_tabla" />
+                                <field name="descripcion" />
+                                <field name="variable" />
+                                <field name="importe" />
+                        </tree>
+                </field>
+    </record>
+    <record id="action_view_categoria_farmaco"  model="ir.actions.act_window">
+                <field name="name">Categoria de Farmacos</field>
+                <field name="res_model">sit_categoria_farmaco</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+
+<!-- Categorias Alimentos -->
+    <record  id="categoria_alimento_tree_view" model="ir.ui.view">
+        <field name="name">sit_categoria_alimento.tree</field>
+                <field name="model">sit_categoria_alimento</field>
+                <field name="arch" type="xml">
+                        <tree string="Categoria de Alimentos">
+                                <field name="codigo" />
+                                <field name="numero" />
+                                <field name="tipo_de_tabla" />
+                                <field name="descripcion" />
+                                <field name="variable" />
+                                <field name="importe" />
+                        </tree>
+                </field>
+    </record>
+    <record id="action_view_categoria_alimento"  model="ir.actions.act_window">
+                <field name="name">Categoria de Alimentos</field>
+                <field name="res_model">sit_categoria_alimento</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+<!-- Canales de venta -->
+    <record  id="canales_venta__tree_view" model="ir.ui.view">
+        <field name="name">sit_canales_venta.tree</field>
+                <field name="model">sit_canales_venta</field>
+                <field name="arch" type="xml">
+                        <tree string="Canales de Venta">
+                                <field name="codigo" />
+                                <field name="numero" />
+                                <field name="tipo_de_tabla" />
+                                <field name="descripcion" />
+                                <field name="variable" />
+                                <field name="importe" />
+                        </tree>
+                </field>
+    </record>
+    <record id="action_view_canales_venta"  model="ir.actions.act_window">
+                <field name="name">Canales de venta</field>
+                <field name="res_model">sit_canales_venta</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+<!-- Telefonos adicionales del dueño		 -->
+    <record  id="sit_telefonos_dueno_tree_view" model="ir.ui.view">
+        <field name="name">sit_telefonos_dueno.tree</field>
+                <field name="model">sit_telefonos_dueno</field>
+                <field name="arch" type="xml">
+                        <tree string="Teléfonos adicionales del dueño">
+                                <field name="sit_telefono2" />
+                        </tree>
+                </field>
+    </record>
+    <record id="action_view_telefonos_adicionales"  model="ir.actions.act_window">
+                <field name="name">Teléfonos adicionales del dueño</field>
+                <field name="res_model">sit_telefonos_dueno</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+<!-- Transportes -->
+    <record  id="sit_transporte2_tree_view" model="ir.ui.view">
+        <field name="name">sit_transporte2.tree</field>
+                <field name="model">sit_transporte2</field>
+                <field name="arch" type="xml">
+                        <tree string="Datos del transporte">
+                                <field name="name" />
+                                <field name="n_de_transporte" />
+                                <field name="n_de_cuit" />
+                                <field name="domicilio" />
+                                <field name="localidad" />
+                                <field name="telefono" />
+                                <field name="horario_de_atencion" />
+                                <field name="forma_de_pago" />
+                                <field name="dado_de_baja" />
+                        </tree>
+                </field>
+    </record>
+    <record id="action_view_transporte_2"  model="ir.actions.act_window">
+                <field name="name">Tranporte</field>
+                <field name="res_model">sit_transporte2</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+		
+		
+<!-- menu nivel 1 -->
+    <menuitem
+        id="lista_farmacos_alimentos"
+        name="Listas Farmacos Alimentos"
+        groups="sales_team.group_sale_salesman"
+        parent="contacts.res_partner_menu_config"
+        sequence="6"
+    />
+<!-- menu nivel 2 -->
+    <menuitem
+        name="Lista de Fármacos"
+        id="menu_conotact_case_farmacos"
+        parent="lista_farmacos_alimentos"
+        action="action_view_lista_farmaco"
+        sequence="1"
+    />
+<!-- menu nivel 2 -->
+    <menuitem
+        name="Lista de Alimentos"
+        id="menu_conotact_case_alimntos"
+        parent="lista_farmacos_alimentos"
+        action="action_view_lista_alimento"
+        sequence="2"
+    />
+<!-- menu nivel 1	 -->
+    <menuitem
+        id="lista_categoria_farmacos_alimentos"
+        name="Categorias Farmacos Alimentos"
+        groups="sales_team.group_sale_salesman"
+        parent="contacts.res_partner_menu_config"
+        sequence="7"
+    />
+<!-- menu nivel 2 -->
+    <menuitem
+        name="Categorias de Farmacos"
+        id="menu_conotact_case_cat_farmacos"
+        parent="lista_categoria_farmacos_alimentos"
+        action="action_view_categoria_farmaco"
+        sequence="1"
+    />	
+<!-- menu nivel 2 -->
+    <menuitem
+        name="Categorias de Alimentos"
+        id="menu_conotact_case_cat_alimntos"
+        parent="lista_categoria_farmacos_alimentos"
+        action="action_view_categoria_alimento"
+        sequence="2"
+    />		
+<!-- menu nivel 1	 -->
+    <menuitem
+        id="lista_canales_venta"
+        name="Canalaes de Venta"
+        groups="sales_team.group_sale_salesman"
+        parent="contacts.res_partner_menu_config"
+        sequence="8"
+    />	
+<!-- menu nivel 2 -->
+    <menuitem
+        name="Canales de Venta"
+        id="menu_canales_venta"
+        parent="lista_canales_venta"
+        action="action_view_canales_venta"
+        sequence="1"
+    />			
+<!-- menu nivel 1	 -->
+    <menuitem
+        id="telefos_adicionales_d"
+        name="Teléfonos adicionales"
+        groups="sales_team.group_sale_salesman"
+        parent="contacts.res_partner_menu_config"
+        sequence="9"
+    />	
+<!-- menu nivel 2 -->
+    <menuitem
+        name="Teléfonos adicionales del dueño"
+        id="menu_canales_venta"
+        parent="telefos_adicionales_d"
+        action="action_view_telefonos_adicionales"
+        sequence="1"
+    />	
+<!-- menu nivel 1	 -->
+    <menuitem
+        id="transporte_2"
+        name="Transportes"
+        groups="sales_team.group_sale_salesman"
+        parent="contacts.res_partner_menu_config"
+        sequence="10"
+    />	
+<!-- menu nivel 2 -->
+    <menuitem
+        name="Empresa de transporte"
+        id="menu_transporte_2"
+        parent="transporte_2"
+        action="action_view_transporte_2"
+        sequence="1"
+    />		
+  </data>
+</odoo>
