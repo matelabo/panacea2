@@ -1,0 +1,94 @@
+<odoo>
+    <data>
+		<record id="talim_01" model="sit_tipo_lista_farmaco">
+			<field name="codigo">0</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">CLIENTE SIN DEFINIR</field>
+			<field name="variable"></field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_02" model="sit_tipo_lista_farmaco">
+			<field name="codigo">1</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">CLIENTE</field>
+			<field name="variable">MIN-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_03" model="sit_tipo_lista_farmaco">
+			<field name="codigo">2</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">ESPECIAL INTERIOR - SIN APLICACION</field>
+			<field name="variable">ESP-MAY-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_04" model="sit_tipo_lista_farmaco">
+			<field name="codigo">3</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL</field>
+			<field name="variable">ESP-MAY-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_05" model="sit_tipo_lista_farmaco">
+			<field name="codigo">4</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">CLIENTE MAYORISTA</field>
+			<field name="variable">MAY-MAY-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_06" model="sit_tipo_lista_farmaco">
+			<field name="codigo">5</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">CLIENTE PROMOCION</field>
+			<field name="variable"></field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_07" model="sit_tipo_lista_farmaco">
+			<field name="codigo">6</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">CLIENTE DISTRIBUIDOR</field>
+			<field name="variable">-MAY-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_08" model="sit_tipo_lista_farmaco">
+			<field name="codigo">7</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">MAYORISTA INTERIOR - SIN APLICACION</field>
+			<field name="variable">MAY-MAY-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_09" model="sit_tipo_lista_farmaco">
+			<field name="codigo">8</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">CLIENTE INTERIOR</field>
+			<field name="variable">INT-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_10" model="sit_tipo_lista_farmaco">
+			<field name="codigo">9</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">LIBRE</field>
+			<field name="variable"></field>
+			<field name="importe">30</field>
+		</record>
+		<record id="talim_11" model="sit_tipo_lista_farmaco">
+			<field name="codigo">10</field>
+			<field name="numero">56</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE FARMACOS</field>
+			<field name="descripcion">LIBRE</field>
+			<field name="variable"></field>
+			<field name="importe">30</field>
+		</record>
+	</data>
+</odoo>		
+		
+		

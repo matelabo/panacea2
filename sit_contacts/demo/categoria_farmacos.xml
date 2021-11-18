@@ -1,0 +1,84 @@
+<odoo>
+    <data>
+		<record id="catfarm_01" model="sit_categoria_farmaco">
+			<field name="codigo">1</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 1</field>
+			<field name="variable">10.00</field>
+			<field name="importe">441</field>
+		</record>
+		<record id="catfarm_02" model="sit_categoria_farmaco">
+			<field name="codigo">2</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 2</field>
+			<field name="variable">16.00</field>
+			<field name="importe">444</field>
+		</record>
+		<record id="catfarm_03" model="sit_categoria_farmaco">
+			<field name="codigo">3</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 3</field>
+			<field name="variable">18.00</field>
+			<field name="importe">448</field>
+		</record>
+		<record id="catfarm_04" model="sit_categoria_farmaco">
+			<field name="codigo">4</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 4</field>
+			<field name="variable">23.00</field>
+			<field name="importe">449</field>
+		</record>
+		<record id="catfarm_05" model="sit_categoria_farmaco">
+			<field name="codigo">5</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 5</field>
+			<field name="variable">14.50</field>
+			<field name="importe">450</field>
+		</record>
+		<record id="catfarm_06" model="sit_categoria_farmaco">
+			<field name="codigo">6</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 6</field>
+			<field name="variable"></field>
+			<field name="importe">451</field>
+		</record>
+		<record id="catfarm_07" model="sit_categoria_farmaco">
+			<field name="codigo">7</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 7</field>
+			<field name="variable"></field>
+			<field name="importe">452</field>
+		</record>
+		<record id="catfarm_08" model="sit_categoria_farmaco">
+			<field name="codigo">8</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 8</field>
+			<field name="variable">05.00</field>
+			<field name="importe">453</field>
+		</record>
+		<record id="catfarm_09" model="sit_categoria_farmaco">
+			<field name="codigo">9</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 9 (NO APLICA DESCUENTO)</field>
+			<field name="variable"></field>
+			<field name="importe">454</field>
+		</record>
+		<record id="catfarm_10" model="sit_categoria_farmaco">
+			<field name="codigo">10</field>
+			<field name="numero">70</field>
+			<field name="tipo_de_tabla">CATEGORIA COMERCIAL DE CLIENTES</field>
+			<field name="descripcion">CATEGORIA COMERCIAL 10 </field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+	</data>
+</odoo>		

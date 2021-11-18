@@ -1,0 +1,274 @@
+<odoo>
+  <data>
+
+    <record id="datos_cliente1_form_inherited" model="ir.ui.view">
+            <field name="name">datos_cliente1_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet/div[2]/field[1]" position="before">
+                    <field name="sit_dueno_regente" widget="radio" attrs="{'invisible': [('is_company','=', True)]}"/>
+                </xpath>
+            </field>
+    </record>
+
+
+<!--   Cliente -->
+    <record id="datos_cliente2_form_inherited" model="ir.ui.view">
+            <field name="name">datos_cliente2_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group/group/label[1]" position="replace">
+                    <field name="sit_nro_cliente" placeholder="Numero de Cliente" attrs="{'invisible': [('is_company','=', False)]}" />
+					<field name="sit_nombre_fantasia" placeholder="Nombre de Fantasía" attrs="{'invisible': [('is_company','=', False)]}"  />
+					<field name="sit_website_user" placeholder="Es usuario web?" attrs="{'invisible': [('is_company','=', False)]}"  />
+					<field name="sit_tipo_de_sociedad" attrs="{'invisible': [('is_company','=', False)]}"  />
+					<field name="sit_habilitado" attrs="{'invisible': [('is_company','=', True)]}"  widget="radio" />
+					<field name="sit_matrícula" placeholder="N° de Matrícula" attrs="{'invisible': ['|', '|', ('sit_dueno_regente','=', 'dueno'), ('is_company','=', True)]}" />
+					<field name="sit_habilitacion_min" placeholder="Habilitación Mínima?" attrs="{'invisible': ['|', '|', ('sit_dueno_regente','=', 'dueno'), ('is_company','=', True)]}" />
+					<field name="sit_cant_veterinarios_con_rt" placeholder="Cant Veterinarios con RT?"  attrs="{'invisible': ['|', '|', ('sit_dueno_regente','=', 'dueno'), ('is_company','=', True)]}"  />
+                    <label for="" name="address_name">
+                        <b attrs="{'invisible': [('type', '!=', 'contact')]}">Dirección</b>
+                        <b attrs="{'invisible': [('type', '!=', 'invoice')]}">Invoice Address</b>
+                        <b attrs="{'invisible': [('type', '!=', 'delivery')]}">Delivery Address</b>
+                        <b attrs="{'invisible': [('type', '!=', 'other')]}">Other Address</b>
+                        <b attrs="{'invisible': [('type', '!=', 'private')]}">Private Address</b>
+                        <b attrs="{'invisible': [('type', '!=', False)]}">Address</b>
+                    </label>					
+					
+                </xpath>
+            </field>
+    </record>
+<!--   Cliente -->
+    <record id="datos_cliente3_form_inherited" model="ir.ui.view">
+            <field name="name">datos_cliente3_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[1]/group[2]/field[8]" position="after">
+                    <field name="sit_transportes" attrs="{'invisible': [('is_company','=', False)]}" />
+                </xpath>
+            </field>
+    </record>
+<!--   Dueño -->
+    <record id="correo2_form_inherited" model="ir.ui.view">
+            <field name="name">correo2_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[1]/group[2]/field[5]" position="after">
+                    <field name="sit_correo2" placeholder="correo@correo.com" attrs="{'invisible': [('is_company','=', True)]}" />
+                </xpath>
+            </field>
+    </record>
+<!--   Dueño -->
+    <record id="telefonos_adicionalest_form_inherited" model="ir.ui.view">
+            <field name="name">telefonos_adicionalest_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet[1]/group[1]/group[2]/field[2]" position="after">
+                    <field name="sit_telefonos_adicionales" placeholder="76767676" attrs="{'invisible': [('is_company','=', True)]}" />
+                </xpath>
+            </field>
+    </record>
+<!--   Regente-kanban -->
+    <!-- <record id="regente_kanban_form_inherited" model="ir.ui.view"> -->
+            <!-- <field name="name">regente_kanban_form_inherited</field>			 -->
+            <!-- <field name="model">res.partner</field> -->
+            <!-- <field name="inherit_id" ref="base.view_partner_form"/> -->
+            <!-- <field name="arch" type="xml"> -->
+                <!-- <xpath expr="//templates/t/div[1]/div[2]/field[1]" position="after"> -->
+					<!-- <field name="sit_matrícula" placeholder="N° de Matrícula" attrs="{'invisible': ['|', '|', ('sit_dueno_regente','=', 'dueno'), ('is_company','=', True)]}" /> -->
+					<!-- <field name="sit_habilitacion_min" placeholder="Habilitación Mínima?" attrs="{'invisible': ['|', '|', ('sit_dueno_regente','=', 'dueno'), ('is_company','=', True)]}" /> -->
+					<!-- <field name="sit_cant_veterinarios_con_rt" placeholder="Cant Veterinarios con RT?"  attrs="{'invisible': ['|', '|', ('sit_dueno_regente','=', 'dueno'), ('is_company','=', True)]}"  /> -->
+                <!-- </xpath> -->
+            <!-- </field> -->
+    <!-- </record> -->
+<!--   Cliente farmacos-alimentos -->
+    <record id="farmacos_alimentos1_form_inherited" model="ir.ui.view">
+            <field name="name">farmacos_alimentos1_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[1]" position="after">
+					<separator string="Farmacos - Alimentos" attrs="{'invisible': [('is_company','=', False)]}"/>
+
+					<group attrs="{'invisible': [('is_company','=', False)]}">
+						<field name="sit_fecha_de_ultima_compra_farmacos"/>
+						<field name="sit_problemas_cobranza_farmacos" widget="radio"/>
+						<field name="sit_problemas_cobranza_farmacos_date"/>
+						<field name="sit_categoria_farmacos"/>
+					</group>
+					<group attrs="{'invisible': [('is_company','=', False)]}">
+						<field name="sit_fecha_de_ultima_compra_alimentos"/>
+						<field name="sit_problemas_cobranza_alimentos" widget="radio"/>
+						<field name="sit_problemas_cobranza_alimentos_date"/>
+						<field name="sit_categoria_alimentos"/>
+					</group>
+                </xpath>
+            </field>
+    </record>
+<!--   Cliente -->
+    <record id="grupo_fiscal_form_inherited" model="ir.ui.view">
+            <field name="name">grupo_fiscal_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[1]" position="after">
+					<separator string="Información Fiscal" attrs="{'invisible': [('is_company','=', False)]}"/>
+					<group attrs="{'invisible': [('is_company','=', False)]}">
+						<group>
+							<field name="sit_contado_anticipado" widget="radio"/>
+							<field name="control_tarifa"/>
+							<field name="control_deuda_atras" widget="radio"/>
+							<field name="control_tope_de_cr" widget="radio"/>
+							<field name="credit_limit"/>
+							<field name="sit_factura_rc" widget="radio"/>
+							<field name="sit_fecha_alic_cero_caba"/>
+							<field name="sit_fecha_de_alta"/>
+							<field name="sit_problemas_de_cuit" widget="radio"/>
+							<field name="sit_fecha_de_verificacion"/>
+							<field name="sit_fecha_de_vencimiento_verificacion"/>
+							<field name="sit_fecha_exento_arba"/>
+							<field name="sit_porc_exento_arba"/>
+							<field name="sit_fecha_exento_arba"/>
+							<field name="sit_fecha_exento_arba"/>
+							<field name="sit_gln_senasa"/>
+							<field name="sit_gln_senasa_fecha"/>
+						</group>
+					</group>
+					<group attrs="{'invisible': [('is_company','=', False)]}">
+						<separator string="En Recuperación"/>
+						<group>
+							<field name="sit_fecha_desde"/>
+							<field name="sit_fecha_hasta"/>
+						</group>
+						<separator string="Para Recuperación"/>
+						<group>
+							<field name="sit_fecha_desde_recup"/>
+							<field name="sit_fecha_hasta_recup"/>
+							<field name="sit_porc_de_descuento"/>
+							
+						</group>
+					</group>
+					<group>
+					</group>
+			
+                </xpath>
+            </field>
+    </record>
+
+
+
+
+
+
+<!--   Cliente Cliente-Dueños-Dueños -->
+    <record id="dueno_form_inherited" model="ir.ui.view">
+            <field name="name">dueno_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook[1]/page[1]" position="after">
+                    <page string="Contactos | Dueños" autofocus="autofocus" attrs="{'invisible': [('is_company','=', False)]}" >
+						<field name="name" attrs="{'invisible': ['|', '|', ('sit_dueno_regente','=', 'regente'), ('is_company','=', False)]}"/>
+					</page>
+
+                </xpath>
+            </field>
+    </record>
+<!--   Cliente Cliente-Dueños-Regentes -->
+    <record id="regente_form_inherited" model="ir.ui.view">
+            <field name="name">regente_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook[1]/page[1]" position="after">
+                    <page string="Contactos | Regentes" autofocus="autofocus" attrs="{'invisible': [('is_company','=', False)]}" >
+						<field name="name" attrs="{'invisible': ['|', '|', ('sit_dueno_regente','=', 'dueno'), ('is_company','=', False)]}"/>
+					</page>
+
+                </xpath>
+            </field>
+    </record>
+
+
+
+<!--   Cliente farmacos-alimentos -->
+    <record id="farmacos_alimentos_page1_form_inherited" model="ir.ui.view">
+            <field name="name">farmacos_alimentos_page1_form_inherited</field>			
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook[1]/page[1]" position="after">
+                    <page string="Canal de Ventas" autofocus="autofocus" attrs="{'invisible': [('is_company','=', False)]}">
+						<field name="sit_canal_de_venta"/>
+					</page>
+
+                </xpath>
+            </field>
+    </record>
+
+
+	
+	
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="sit_contacts.list">
+      <field name="name">sit_contacts list</field>
+      <field name="model">sit_contacts.sit_contacts</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="sit_contacts.action_window">
+      <field name="name">sit_contacts window</field>
+      <field name="res_model">sit_contacts.sit_contacts</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="sit_contacts.action_server">
+      <field name="name">sit_contacts server</field>
+      <field name="model_id" ref="model_sit_contacts_sit_contacts"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="sit_contacts" id="sit_contacts.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="sit_contacts.menu_1" parent="sit_contacts.menu_root"/>
+    <menuitem name="Menu 2" id="sit_contacts.menu_2" parent="sit_contacts.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="sit_contacts.menu_1_list" parent="sit_contacts.menu_1"
+              action="sit_contacts.action_window"/>
+    <menuitem name="Server to list" id="sit_contacts" parent="sit_contacts.menu_2"
+              action="sit_contacts.action_server"/>
+-->
+  </data>
+</odoo>

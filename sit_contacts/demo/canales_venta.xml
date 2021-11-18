@@ -1,0 +1,140 @@
+<odoo>
+    <data>
+		<record id="canvent_00" model="sit_canales_venta">
+			<field name="codigo">0</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion"></field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_01" model="sit_canales_venta">
+			<field name="codigo">1</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">VETERINARIA CON REGENTE TECNICO</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_02" model="sit_canales_venta">
+			<field name="codigo">2</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">VETERINARIA SIN REGENTE TECNICO</field>
+			<field name="variable">SIN</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_03" model="sit_canales_venta">
+			<field name="codigo">3</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">PET'S CON REGENTE TECNICO</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_04" model="sit_canales_venta">
+			<field name="codigo">4</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">PET'S SIN REGENTE TECNICO</field>
+			<field name="variable">SIN</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_05" model="sit_canales_venta">
+			<field name="codigo">5</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">DISTRIBUIDORA</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_06" model="sit_canales_venta">
+			<field name="codigo">6</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">REVENDEDOR</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_07" model="sit_canales_venta">
+			<field name="codigo">7</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">FERRETERIA CON REGENTE TECNICO</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_08" model="sit_canales_venta">
+			<field name="codigo">8</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">FERRETERIA SIN REGENTE TECNICO</field>
+			<field name="variable">SIN</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_09" model="sit_canales_venta">
+			<field name="codigo">9</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">PAJARERIA CON REGENTE TECNICO</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_10" model="sit_canales_venta">
+			<field name="codigo">10</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">PAJARERIA SIN REGENTE TECNICO</field>
+			<field name="variable">SIN</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_11" model="sit_canales_venta">
+			<field name="codigo">11</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">SEMILLERIA CON REGENTE TECNICO</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_12" model="sit_canales_venta">
+			<field name="codigo">12</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">SEMILLERIA SIN REGENTE TECNICO</field>
+			<field name="variable">SIN</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_13" model="sit_canales_venta">
+			<field name="codigo">13</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">FORRAJERIA CON REGENTE TECNICO</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_14" model="sit_canales_venta">
+			<field name="codigo">14</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">FORAJERIA SIN REGENTE TECNICO</field>
+			<field name="variable">SIN</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_15" model="sit_canales_venta">
+			<field name="codigo">15</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">VIVEROS CON REGENTE TECNICO</field>
+			<field name="variable">CON</field>
+			<field name="importe">0</field>
+		</record>
+		<record id="canvent_16" model="sit_canales_venta">
+			<field name="codigo">16</field>
+			<field name="numero">3</field>
+			<field name="tipo_de_tabla">CANALES DE VENTA DE PRODUCTOS</field>
+			<field name="descripcion">VIVEROS SIN REGENTE TECNICO</field>
+			<field name="variable">SIN</field>
+			<field name="importe">0</field>
+		</record>
+	</data>
+</odoo>

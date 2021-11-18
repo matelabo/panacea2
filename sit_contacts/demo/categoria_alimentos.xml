@@ -1,0 +1,140 @@
+<odoo>
+    <data>
+		<record id="catalim_01" model="sit_categoria_alimento">
+			<field name="codigo">1</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE MINORISTA (CAP-GBA)</field>
+			<field name="variable">10.00</field>
+			<field name="importe">441</field>
+		</record>
+		<record id="catalim_02" model="sit_categoria_alimento">
+			<field name="codigo">2</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL A (CAP-GBA)</field>
+			<field name="variable">16.00</field>
+			<field name="importe">444</field>
+		</record>
+		<record id="catalim_03" model="sit_categoria_alimento">
+			<field name="codigo">3</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL B (CAP-GBA)</field>
+			<field name="variable">18.00</field>
+			<field name="importe">448</field>
+		</record>
+		<record id="catalim_04" model="sit_categoria_alimento">
+			<field name="codigo">4</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL C (CAP-GBA)</field>
+			<field name="variable">23.00</field>
+			<field name="importe">449</field>
+		</record>
+		<record id="catalim_05" model="sit_categoria_alimento">
+			<field name="codigo">5</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL A (10+1) (CAP-GBA)</field>
+			<field name="variable">14.50</field>
+			<field name="importe">450</field>
+		</record>
+		<record id="catalim_06" model="sit_categoria_alimento">
+			<field name="codigo">6</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL B (10+1) (CAP-GBA)</field>
+			<field name="variable"></field>
+			<field name="importe">451</field>
+		</record>
+		<record id="catalim_07" model="sit_categoria_alimento">
+			<field name="codigo">7</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL C (10+1) (CAP-GBA)</field>
+			<field name="variable"></field>
+			<field name="importe">452</field>
+		</record>
+		<record id="catalim_08" model="sit_categoria_alimento">
+			<field name="codigo">8</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE MINORISTA (INTERIOR)</field>
+			<field name="variable">05.00</field>
+			<field name="importe">453</field>
+		</record>
+		<record id="catalim_09" model="sit_categoria_alimento">
+			<field name="codigo">9</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL A (INTERIOR)</field>
+			<field name="variable"></field>
+			<field name="importe">454</field>
+		</record>
+		<record id="catalim_10" model="sit_categoria_alimento">
+			<field name="codigo">10</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL B (INTERIOR)</field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+		<record id="catalim_10" model="sit_categoria_alimento">
+			<field name="codigo">11</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE ESPECIAL C (INTERIOR)</field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+		<record id="catalim_10" model="sit_categoria_alimento">
+			<field name="codigo">12</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE REVENDEDOR (CAP-GBA)</field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+		<record id="catalim_10" model="sit_categoria_alimento">
+			<field name="codigo">13</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE DISTRIBUIDOR (CAP-GBA)</field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+		<record id="catalim_10" model="sit_categoria_alimento">
+			<field name="codigo">14</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE REVENDEDOR (INTERIOR)</field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+		<record id="catalim_10" model="sit_categoria_alimento">
+			<field name="codigo">15</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">CLIENTE DISTRIBUIDOR (INTERIOR)</field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+		<record id="catalim_10" model="sit_categoria_alimento">
+			<field name="codigo">16</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">PERSONAL</field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+		<record id="catalim_10" model="sit_categoria_alimento">
+			<field name="codigo">17</field>
+			<field name="numero">72</field>
+			<field name="tipo_de_tabla">CATEGORIA DE CLIENTES DE ALIMENTOS</field>
+			<field name="descripcion">NO APLICA DESCUENTO</field>
+			<field name="variable"></field>
+			<field name="importe">0</field>
+		</record>
+	</data>
+</odoo>				

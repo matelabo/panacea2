@@ -1,0 +1,94 @@
+<odoo>
+    <data>
+		<record id="tlf_01" model="sit_tipo_lista_alimento">
+			<field name="codigo">0</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE SIN DEFINIR</field>
+			<field name="variable"></field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_02" model="sit_tipo_lista_alimento">
+			<field name="codigo">1</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE MINORISTA (CAP-GBA) (COMUN)</field>
+			<field name="variable">MIN-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_03" model="sit_tipo_lista_alimento">
+			<field name="codigo">2</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">DISTRIBUIDOR ALIMENTO (CAP-GBA/INTERIOR)</field>
+			<field name="variable">INT-MAY-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_04" model="sit_tipo_lista_alimento">
+			<field name="codigo">3</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE MINORISTA (CAP-GBA) (ESP. A)</field>
+			<field name="variable">MIN-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_05" model="sit_tipo_lista_alimento">
+			<field name="codigo">4</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE MINORISTA (CAP-GBA) (ESP. B)</field>
+			<field name="variable">MIN-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_06" model="sit_tipo_lista_alimento">
+			<field name="codigo">5</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">DISTRIBUIDOR ALIMENTO (INTERIOR)</field>
+			<field name="variable">INT-MAY-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_07" model="sit_tipo_lista_alimento">
+			<field name="codigo">6</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE REVENDEDOR (INTERIOR) (A)</field>
+			<field name="variable">INT-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_08" model="sit_tipo_lista_alimento">
+			<field name="codigo">7</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE REVENDEDOR (INTERIOR) (B)</field>
+			<field name="variable">INT-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_09" model="sit_tipo_lista_alimento">
+			<field name="codigo">8</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE MINORISTA (INTERIOR) (COMUN)</field>
+			<field name="variable">INT-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_10" model="sit_tipo_lista_alimento">
+			<field name="codigo">9</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE MINORISTA (CAP-GBA) (ESP. C) </field>
+			<field name="variable">MIN-MIN-</field>
+			<field name="importe">30</field>
+		</record>
+		<record id="tlf_11" model="sit_tipo_lista_alimento">
+			<field name="codigo">10</field>
+			<field name="numero">58</field>
+			<field name="tipo_de_tabla">TIPOS DE LISTA DE KROFY</field>
+			<field name="descripcion">CLIENTE DE PRUEBA</field>
+			<field name="variable"></field>
+			<field name="importe">30</field>
+		</record>
+	</data>
+</odoo>		
+		
+		
